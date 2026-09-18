@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 18/09/2026
+## Register Number:212225040455
+## Name: Syed Meeran A
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,82 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+RailNav – Smart Railway Station Navigation System
 
+RailNav is a multi-platform navigation system designed to help passengers quickly find facilities and destinations inside large railway stations.
+
+The system provides:
+
+🗺️ Interactive 2D/3D station maps 📍 Real-time location and navigation 🚶 Step-by-step directions ♿ Accessible routes for elderly and differently-abled passengers 🖥️ Interactive digital kiosks 🔊 Voice-guided navigation 🔄 Real-time updates when platforms or facilities change 📱 Mobile application support
 
 ## Proposed Solution / Architecture Diagram
+<img width="1536" height="904" alt="image" src="https://github.com/user-attachments/assets/f7ab7418-e1ce-416c-b1d1-eee86505968f" />
+
 
 
 ## Use Cases
+Main Actors
+
+Passenger
+
+Station Administrator
+
+Navigation System
+
+Digital Kiosk
+
+<img width="1536" height="904" alt="image" src="https://github.com/user-attachments/assets/a96d68dc-b7e1-4e81-80aa-5d4f05759156" />
 
 
 ## Technology Stack
+## Frontend
+React.js
 
+HTML5
+
+CSS3
+
+JavaScript
+
+Mobile
+
+React Native / Flutter
+
+## Backend
+Node.js
+
+Express.js
+
+Database
+
+MongoDB
+
+Maps & Navigation
+
+OpenStreetMap
+
+Leaflet / Mapbox
+
+Graph-based route calculation
+
+Additional Technologies
+
+WebSockets for real-time updates
+
+GPS / Indoor positioning
+
+Text-to-Speech for voice navigation
+
+REST APIs
 
 ## Dependencies
 
+Frontend ├── React ├── React Router ├── Leaflet / Mapbox └── Axios
+
+Backend ├── Node.js ├── Express.js └── WebSocket
+
+Database └── MongoDB
+
+Navigation ├── OpenStreetMap ├── Location Services └── Route Calculation Algorithm
+
+Accessibility └── Text-to-Speech API
